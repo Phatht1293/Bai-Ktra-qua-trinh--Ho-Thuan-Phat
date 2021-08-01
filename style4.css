@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    margin: 0px;
+    background-color: teal;
+}
+
+h2{
+    
+    width: 100%;
+    height: 70px;
+}
+
+#main{
+    width: 100%;
+    height: 200px;
+}
+
+#cont{
+    
+    width: 100%;
+    height: 50px;
+}
+
+#nav{
+    
+    width: 100%;
+    height: 50px;
+}
+#nav button{
+    border-radius: 15px;
+    width: 75px;
+    height: 35px;
+    
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.479);
+    background-color: rgb(36, 36, 36);
+    border: transparent;
+}
+
+
+#nav button:hover{
+    cursor: pointer;
+    width: 78px;
+    height: 36px;
+    color: rgba(0, 0, 0, 0.479);
+    background-color: rgb(145, 145, 145);
+    
+    border: transparent;
+}
+
+#show{
+    margin-left: 460px;
+    background-color: rgb(255, 225, 142);
+    width: 700px;
+    border-radius: 40px;
+}
+#show:hover{
+    background-color: wheat;
+    border-radius: 35px;
+}

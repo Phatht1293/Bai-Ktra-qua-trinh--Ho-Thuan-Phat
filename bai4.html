@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style4.css">
+</head>
+<body>
+    <h2>QUẢN LÝ NHÂN VIÊN</h2>
+    <div id="main">
+        <div id="cont">
+            <table>
+                <tr>
+                    Tên
+                    <input id="name_str"  type="text">
+                </tr>
+                <tr>
+                    Tuổi
+                    <input id="age_str"  type="text">
+                </tr>
+                <tr>
+                    Mức lương
+                    <input id="salary_str" type="text">
+                </tr>
+                <tr>
+                    Chức vụ
+                    <input id="position_str" type="text">
+                </tr>
+            </table>
+            
+        </div>
+        <div id="nav">
+            <button onclick="main_read_staff()">Read</button>
+            <button onclick="create_new_staff()">Creat</button>
+            <button onclick="update_staff()">Update</button>
+            <button onclick="del_staff()">Delete</button>
+
+        </div>
+
+        <div id="show_alert" style="color: red;"></div>
+
+        <div id="show">
+     
+        </div>
+
+    </div>
+
+
+
+    <script src="/4.js"></script>
+</body>
+</html>
